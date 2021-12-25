@@ -276,6 +276,9 @@ modules.xml
 *.tfstate
 *.tfstate.*
 
+# dependency lock file
+.terraform.lock.hcl
+
 # Crash log files
 crash.log
 
