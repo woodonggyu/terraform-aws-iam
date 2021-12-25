@@ -1,0 +1,21 @@
+{
+  "name": "terraform-aws-iam",
+  "version": "1.0.0",
+  "description": "Terraform module which creates IAM resources on AWS",
+  "scripts": {
+    "overrideChangelog": "gren changelog --override"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/woodonggyu/terraform-aws-iam.git"
+  },
+  "author": "woodonggyu",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/woodonggyu/terraform-aws-iam/issues"
+  },
+  "homepage": "https://github.com/woodonggyu/terraform-aws-iam#readme",
+  "dependencies": {
+    "github-release-notes": "^0.17.3"
+  }
+}
