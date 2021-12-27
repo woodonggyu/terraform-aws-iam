@@ -2,6 +2,18 @@
 
 Provides an IAM user (include. access key, login profile) for the AWS Account.
 
+## How to Use PGP
+
+```bash
+$ brew install gpg
+$ gpg --full-generate-key
+$ gpg --list-secret-keys --keyid-format LONG
+$ gpg --armor --export [public_key]
+
+# decrypt pgp key
+$ terraform output -json iam_user_login_profile_encrypted_password | jq -r '.[0][0]' | base64 --decode | gpg --decrypt ; echo
+```
+
 <!-- BEGIN_TF_DOCS -->
 ## Requirements
 
@@ -14,7 +26,7 @@ Provides an IAM user (include. access key, login profile) for the AWS Account.
 
 | Name | Version |
 |------|---------|
-| <a name="provider_aws"></a> [aws](#provider\_aws) | >= 3.60.0 |
+| <a name="provider_aws"></a> [aws](#provider\_aws) | 3.70.0 |
 
 ## Modules
 
@@ -39,7 +51,7 @@ No modules.
 | <a name="input_permissions_boundary"></a> [permissions\_boundary](#input\_permissions\_boundary) | The ARN of the policy that is used to set the permissions boundary for the user | `string` | `null` | no |
 | <a name="input_pgp_keyfile"></a> [pgp\_keyfile](#input\_pgp\_keyfile) | The Keyfile of Either a base-64 encoded PGP public key for use in the encrypted\_secret output attribute | `string` | n/a | yes |
 | <a name="input_status"></a> [status](#input\_status) | Access key status to apply | `string` | `"Active"` | no |
-| <a name="input_tags"></a> [tags](#input\_tags) | Key-value map of tags for the IAM user | `list(map(string))` | n/a | yes |
+| <a name="input_tags"></a> [tags](#input\_tags) | Key-value map of tags for the IAM user | `list(map(string))` | `null` | no |
 | <a name="input_users"></a> [users](#input\_users) | The user's name | `list(string)` | n/a | yes |
 
 ## Outputs
