@@ -24,6 +24,7 @@ variable "force_destroy" {
 variable "tags" {
   type        = list(map(string))
   description = "Key-value map of tags for the IAM user"
+  default     = null
 }
 
 variable "status" {

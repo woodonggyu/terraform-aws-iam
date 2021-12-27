@@ -6,7 +6,7 @@ provider "aws" {
 module "iam_account" {
   source = "../../modules/iam-account"
 
-  account_alias = "terraform-alias"
+  account_alias = "test-for-account-alias"
 
   allow_users_to_change_password = true
   hard_expiry                    = false
