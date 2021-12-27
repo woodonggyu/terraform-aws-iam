@@ -1,5 +1,16 @@
 # Changelog
 
+## v0.2.0 🌈 (27/12/2021)
+## Changes
+
+- Update CHANGELOG.md @github-actions (#11)
+
+## 🚀 Features
+
+- feat: Provides an IAM user (include. access key, login profile) @woodonggyu (#13)
+
+---
+
 ## v0.1.2 🌈 (26/12/2021)
 ## Changes
 
