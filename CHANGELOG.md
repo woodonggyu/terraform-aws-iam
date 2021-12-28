@@ -1,5 +1,17 @@
 # Changelog
 
+## v0.3.0 🌈 (28/12/2021)
+## Changes
+
+- Update CHANGELOG.md @github-actions (#14)
+- chore @woodonggyu (#15)
+
+## 🚀 Features
+
+- feat: Manages IAM group for the AWS account @woodonggyu (#17)
+
+---
+
 ## v0.2.0 🌈 (27/12/2021)
 ## Changes
 
