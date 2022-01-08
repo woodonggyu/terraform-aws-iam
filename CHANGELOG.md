@@ -1,5 +1,16 @@
 # Changelog
 
+## v0.4.0 🌈 (08/01/2022)
+## Changes
+
+- Update CHANGELOG.md @github-actions (#18)
+
+## 🚀 Features
+
+- feat: Manages IAM policy @woodonggyu (#20)
+
+---
+
 ## v0.3.0 🌈 (28/12/2021)
 ## Changes
 
