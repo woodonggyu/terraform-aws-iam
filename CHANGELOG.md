@@ -1,5 +1,14 @@
 # Changelog
 
+## v0.5.1 🌈 (09/01/2022)
+## Changes
+
+- chore: Remove blank line @woodonggyu (#26)
+- Update CHANGELOG.md @github-actions (#24)
+- chore: Rename variable ('groups' to 'attachment') @woodonggyu (#25)
+
+---
+
 ## v0.5.0 🌈 (09/01/2022)
 ## Changes
 
