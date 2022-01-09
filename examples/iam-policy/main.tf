@@ -35,7 +35,7 @@ module "iam_policy" {
     "Team" : "Security Engineering"
   }
 
-  groups = [
+  attachment = [
     {
       group      = element(module.iam_group.iam_group_name, 0)
       policy_arn = module.iam_policy.iam_policy_arn
