@@ -20,5 +20,4 @@ resource "aws_iam_role_policy_attachment" "this" {
 
   role       = var.attachment[count.index]["role"]
   policy_arn = var.attachment[count.index]["policy_arn"]
-
 }
