@@ -1,5 +1,16 @@
 # Changelog
 
+## v0.5.0 🌈 (09/01/2022)
+## Changes
+
+- Update CHANGELOG.md @github-actions (#21)
+
+## 🚀 Features
+
+- feat: Manages IAM role @woodonggyu (#23)
+
+---
+
 ## v0.4.0 🌈 (08/01/2022)
 ## Changes
 
