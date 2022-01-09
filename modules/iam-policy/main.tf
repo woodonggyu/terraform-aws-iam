@@ -11,8 +11,8 @@ resource "aws_iam_policy" "this" {
 }
 
 resource "aws_iam_group_policy_attachment" "this" {
-  count = length(var.attachment) > 0 ? length(var.attachment) : 0
+  count = length(var.groups) > 0 ? length(var.groups) : 0
 
-  group      = var.attachment[count.index]["group"]
-  policy_arn = var.attachment[count.index]["policy_arn"]
+  group      = var.groups[count.index]["group"]
+  policy_arn = var.groups[count.index]["policy_arn"]
 }

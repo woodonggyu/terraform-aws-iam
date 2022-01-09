@@ -33,8 +33,8 @@ variable "tags" {
   default     = null
 }
 
-variable "attachment" {
+variable "groups" {
   type        = list(any)
-  description = "The groups and ARN the policy should be applied to"
+  description = "The groups the policy should be applied to"
   default     = []
 }
