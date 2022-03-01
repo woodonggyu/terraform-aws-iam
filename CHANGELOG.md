@@ -1,5 +1,16 @@
 # Changelog
 
+## v0.5.2 🌈 (09/01/2022)
+## Changes
+
+- Update CHANGELOG.md @github-actions (#27)
+
+## 📝 Documentation
+
+- docs: Add Example Code @woodonggyu (#28)
+
+---
+
 ## v0.5.1 🌈 (09/01/2022)
 ## Changes
 
